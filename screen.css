@@ -1,1 +1,45 @@
 /* Add screen styles below */
+
+body {
+    background-color: #d9eacf;
+    font-family: 'Arial', sans-serif;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h1 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: #6c757d;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+
+.btn-primary {
+    background-color: #198754;
+    border-color: #198754;
+    padding: 0.375rem 0.75rem;
+    
+}
+
+.btn-primary:hover {
+    background-color: #146c43;
+    border-color: #146c43;
+}
+
+@media (max-width: 768px) {
+    h1, h2 {
+        text-align: left;
+    }
+}
